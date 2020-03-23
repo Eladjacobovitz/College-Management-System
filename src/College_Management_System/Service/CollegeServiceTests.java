@@ -29,7 +29,6 @@ public class CollegeServiceTests {
 		course.addCourseTaken(2,2, 80);
 		course.addCourseTaken(3,1, 70);                              
 		course.addCourseTaken(3,3, 70); 
-		
 		return course;
 	}
 	
@@ -39,20 +38,15 @@ public static void main(String []args) {
 		CollegeService college = buildCollege();
 		
 		college.coursesList();     // Print all the courses that are available
-		
 		college.studentsList();    // Print all print all college students 
-		
 		college.removeStudent(0);  // Removes the first student in the list
 		college.removeStudent(4);  // Removes a student somewhere inside the list
 		college.removeStudent(5);  // Removes the last student in the list
-		
 		college.studentsList();    // Prints the students after the removals
 		college.removeCourse(1);
-		
 		college.coursesList();	  // We remove course number 1 and now we will see if the course exist
 		college.courseReport(1);  // Print all college students who took course number 1
 		college.removeCourse(1);  
-
 		college.studentReport(1);	
 		System.out.println();	
 		college.studentReport(2); 	
