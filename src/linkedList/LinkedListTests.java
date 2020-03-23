@@ -14,7 +14,6 @@ public class LinkedListTests {
 		
 		// As you implement the LinkedList class methods, write your testing 
 		// code below. If you want, you can use private testing methods.
-		
 		// testExceptions();
 	}
 	
@@ -23,9 +22,9 @@ public class LinkedListTests {
 	    // Creates a list of Integer objects
 		LinkedList<Integer> list = new LinkedList<Integer>();
 			
-		// After you'll implement the getFirst() method, the statement below
+		// After we will implement the getFirst() method, the statement below
 		// should cause the program to crash.
-		// To prevent it, wrap the method call with try/catch code. 
+		// To prevent it, we wraped the method call with try/catch code. 
 	    list.getFirst(); // Tries to get an element from the list, which is empty
 	    list.getLast();
 	    
@@ -35,14 +34,14 @@ public class LinkedListTests {
 		list.add(9);
 		System.out.println(list);
 			
-		// After you'll implement the add(e,index) method, the statement below
+		// After we will implement the add method, the statement below
 		// should cause the program to crash.
-		// To prevent it, wrap the method call with try/catch code. 
+		// To prevent it, we wraped the method call with try/catch code. 
 		list.add(8,-2);	// Tries to insert an element in index -2.
 					
-		// After you'll implement the add(e,index) method, the statement below
+		// After we will implement the add method, the statement below
 		// should cause the program to crash.
-		// To prevent it, wrap the method call with try/catch code. 
+		// To prevent it, we wraped the method call with try/catch code. 
 		list.add(8,10); // Tries to insert an element in index 10.
 	}
 }
