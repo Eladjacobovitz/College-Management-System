@@ -51,13 +51,13 @@ public class StudentServiceTests {
 		else System.out.println("didnt took this course.");
 		System.out.println();
 		
-		// Print the student report (a list of courses that he took, his grades and etc.). 
+		// Print the student report (a list of courses that he took, his grades etc.). 
 		student2.studentReport();
 		System.out.println();
 		
-		// We will try some negative tests and see what the output of those tests will be
+		// We will try some negative tests and see what is the output of those tests will be
 		student2.gradeInCourse(course2);
-		// We will remove course2 from student2 list and we will try to print his grade in it.
+		// We will remove course2 from student2 list and we will try to print his grade in course2
 		student2.removecoursefromstudentlist(course2);
 		student2.gradeInCourse(course2);
 		System.out.println();
