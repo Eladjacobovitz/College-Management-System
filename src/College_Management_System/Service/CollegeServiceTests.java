@@ -2,7 +2,7 @@ package College_Management_System.Service;
 
 public class CollegeServiceTests {
 	
-//  Builds a demo college, populated with some demo courses and students. */
+	// Builds a demo college, populated with some demo courses and students.
 	private static CollegeService buildCollege() {
 		CollegeService course = new CollegeService("Berkeley School of Music");
 		
@@ -49,15 +49,16 @@ public static void main(String []args) {
 		college.studentsList();    // Prints the students after the removals
 		college.removeCourse(1);
 		
-		college.coursesList();	  // we remove course number 1 and now we will see if the course exist
+		college.coursesList();	  // We remove course number 1 and now we will see if the course exist
 		college.courseReport(1);  // Print all college students who took course number 1
 		college.removeCourse(1);  
 
-		college.studentReport(1);	System.out.println();	
-		college.studentReport(2); 	System.out.println();
+		college.studentReport(1);	
+		System.out.println();	
+		college.studentReport(2); 	
+		System.out.println();
 		college.courseReport(2);
 		college.topPerfomerReport(2);
-
 		System.out.println();	
 		
 		// we will try to print the reports on courses that are not listed and 
