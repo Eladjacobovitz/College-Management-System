@@ -124,7 +124,6 @@ public class StudentService {
 		}
 		System.out.println("The grade point average is: "+sum/courseList.size());
 		}
-		
 	}
 	
 	
