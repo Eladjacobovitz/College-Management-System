@@ -2,7 +2,7 @@ package College_Management_System.Service;
 
 public class CourseServiceTests {
 
-public static void main(String []args) {
+	public static void main(String []args) {
 		//  Builds some demo courses. 	
 		CourseService course1 = new CourseService(1, "Machine_Learning");
 		CourseService course2 = new CourseService(2, "Lineare_Algebra");
@@ -18,5 +18,4 @@ public static void main(String []args) {
 		System.out.println(course2.toString());
 		System.out.println(course3.toString());	
 	}
-
 }
