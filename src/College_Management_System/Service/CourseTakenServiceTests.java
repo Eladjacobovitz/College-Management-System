@@ -4,7 +4,7 @@ public class CourseTakenServiceTests {
 
 	public static void main(String[] args) {
 		
-		// Builds some demo courses.
+		// Builds some demo courses
 		CourseService course1 = new CourseService(1, "Machine_Learning");
 		CourseService course2 = new CourseService(2, "Lineare_Algebra");
 		CourseTakenService coursetaken1 = new CourseTakenService(course1, 1);
